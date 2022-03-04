@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Bakeasy</title>
+  </head>
+  <body>
+
+<div class="container-fluid">
+    <nav class="navbar fondoPastel">
+      <form class="d-flex">
+        <a href="about_us.html"><button class="btn btn-light botones" type="button">Acerca de nosotros</button></a>
+        <a href="sabores.html"><button class="btn btn-light botones" type="button">Ver sabores</button></a>
+        <a href="hacerpedido.html"><button class="btn btn-light botones" type="button">Hacer un pedido</button></a>
+        <a href="pedidos.html"><button class="btn btn-light botones" type="button">Ver pedidos realizados</button></a>
+      </form>
+    </nav>
+</div>
+
+<div class="titles">
+  <h1 class="titulo"><a class="link_H1" href="index.html"> Bakeasy</a></h1>
+  <h2 class="hashtag"><a class="link_H2">Postres diseñados para ti</h2>
+</div>
+
+<div class="container my-5">
+    <h1>Haz tu pedido aqui</h1>
+    
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre">  
+          <label for="email">Correo electronico</label>
+          <input type="email" class="form-control" id="email" placeholder="pedro_garcai@demoninacion.com">
+          <label for="telefono">Telefono</label>
+          <input type="phone" class="form-control" id="telefono" placeholder="5598765432">
+        </div>
+        <div class="form-group">
+          <label for="numeroPasteles">Cantidad de Pasteles</label>
+          <select class="form-control" id="numeroPasteles">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="saborPastel">Elije tu sabor</label>
+          <select class="form-control" id="saborPastel">
+            <option>Chocolate  $500</option>
+            <option>Nuez  $500</option>
+            <option>Fresa  $500</option>
+            <option>Vainilla  $500</option>
+            <option>Zarzamora  $500</option>
+            <option>Chocolate  $300</option>
+            <option>Nuez  $300</option>
+            <option>Fresa  $300</option>
+            <option>Vainilla  $300</option>
+            <option>Zarzamora  $300</option>
+            <option>Chocolate  $250</option>
+            <option>Nuez  $250</option>
+            <option>Fresa  $250</option>
+            <option>Vainilla  $250</option>
+            <option>Zarzamora  $250</option>
+          </select>
+        </div>
+          <hr>
+          <label for="saborPastel">Escoge tus adicionales</label><br>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Mensaje en chocolate  $50 </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Velas $30</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Chispas $30 </label>
+            </div>
+            <hr>
+          <div class="form-group">
+            <label for="observaciones">Cometarios adicionales</label>
+            <textarea class="form-control" id="observaciones" rows="5"></textarea>
+          </div>
+        <p>
+            Te llegar aun mensaje de Whatsapp con los detalles de tu pedido.
+        </p>
+        <input class="btn botonprincipal btn-lg formulario" type="submit" value="ENVIAR">
+      </form>
+
+    <br>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <span class="text-muted">© 2022 Bakeasy</span>
+    </footer>
+
+</body>
+</html>

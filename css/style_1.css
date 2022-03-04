@@ -1,0 +1,49 @@
+.main-titulo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0.5em;
+}
+
+.main-subtitulo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: solid whitesmoke 1px;
+    padding-bottom: 0.5em;
+    margin-top: 0px;
+}
+
+.main-hashtag{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+body{
+    background-color: #92eef1;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondoPastel {
+    background-color: #17c8ce;
+}
+
+.botones {
+    margin-left: 10px;
+    background-color: #17c8ce;
+    color: #fff;
+}
+
+.botonprincipal {
+    background-color: #17c8ce;
+    color: rgb(15, 11, 11);
+}
